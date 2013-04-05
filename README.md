@@ -1,6 +1,6 @@
 ### About
 
-Several exersises and problems solutions implemented using functional programming with Scala
+Several exercises and problems solutions implemented using functional programming with Scala
 
 ### Demo
 
