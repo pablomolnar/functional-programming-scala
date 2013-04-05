@@ -30,4 +30,10 @@ class ExercisesTest extends FlatSpec {
     assert(!balance("())(".toList))
   }
   
+  it should "count the correct number of how many different ways you can make change for an amount and a given list of coin denominations" in {
+    assert(countChange(4, List(1,2)) == 3)
+    assert(countChange(100, List(1,5,10,25)) == 242)
+    assert(countChange(100, List(5,10,25,50)) == 40)
+  }
+  
 }
